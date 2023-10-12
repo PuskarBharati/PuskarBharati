@@ -164,7 +164,7 @@
             .addClass(o.wrapperClassName);
 
           stickyElement.wrapAll(function() {
-            if ($(this).parent("#" + wrapperId).length == 0) {
+            if ($(this).parent("#008080" + wrapperId).length == 0) {
                     return wrapper;
             }
 });
